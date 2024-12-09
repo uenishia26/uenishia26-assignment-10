@@ -1,0 +1,126 @@
+/* Global styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Updated gradient background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fefefe; /* Slightly off-white text color */
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 40px; /* Slightly reduced top margin */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 3.2rem; /* Slightly increased font size */
+    color: #fefefe;
+    margin-bottom: 25px; /* Reduced margin */
+}
+
+/* Search form styling */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+/* Input field styling */
+input[type="text"] {
+    width: 320px; /* Increased width slightly */
+    padding: 12px; /* Reduced padding */
+    border: 2px solid #a29bfe; /* Softer border color */
+    border-radius: 20px; /* Slightly smaller border radius */
+    outline: none;
+    font-size: 1rem;
+    color: #444;
+    background-color: #f9f9f9;
+}
+
+input[type="text"]::placeholder {
+    color: #888; /* Softer placeholder color */
+}
+
+/* Button styling */
+.btn-search {
+    background-color: #4b79a1; /* Muted blue button color */
+    color: white;
+    border: none;
+    border-radius: 20px; /* Match input field radius */
+    padding: 12px 20px; /* Slightly smaller padding */
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+    background-color: #283e51; /* Darker shade on hover */
+}
+
+/* Chart styling */
+canvas {
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: #f3f4f7; /* Slightly muted background color */
+    border-radius: 10px; /* Adjusted border radius */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Footer styling */
+footer {
+    margin-top: 25px; /* Increased spacing */
+    font-size: 0.85rem; /* Slightly smaller font */
+    color: #d1d8e0; /* Softer footer text color */
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 8px 0;
+}
+
+#similarity-chart {
+    display: none;
+    margin-top: 20px;
+    background-color: #fafafa; /* Softer chart background */
+    padding: 18px; /* Slightly reduced padding */
+    border-radius: 12px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 15px; /* Reduced margin */
+}
+h1 {
+    margin-bottom: 18px; /* Adjusted spacing */
+}
+form {
+    margin-bottom: 18px; /* Adjusted spacing */
+}
+label {
+    display: inline-block;
+    margin: 8px 0;
+}
+input, select, button {
+    margin: 4px;
+    padding: 6px;
+}
+img {
+    max-width: 220px; /* Increased max width */
+    margin: 12px; /* Increased margin */
+}
+.results {
+    margin-top: 18px; /* Adjusted spacing */
+}
